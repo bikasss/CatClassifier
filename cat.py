@@ -3,10 +3,8 @@ from time import sleep
 import pandas as pd
 import pickle
 import numpy as np
-import matplotlib.pyplot as plt
 import scipy
 from PIL import Image
-from scipy import ndimage
 
 
 def sigmoid(Z):
@@ -229,7 +227,6 @@ def pr(image):
     num_px = 64
     fname = my_image
     image = np.array(Image.open(fname).resize((64,64)))
-    plt.imshow(image)
     image = image / 255.
     image = image.reshape((1, num_px * num_px * 3)).T
 
