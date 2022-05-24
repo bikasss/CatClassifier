@@ -3,7 +3,6 @@ from time import sleep
 import pandas as pd
 import pickle
 import numpy as np
-import h5py
 import matplotlib.pyplot as plt
 import scipy
 from PIL import Image
