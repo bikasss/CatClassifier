@@ -1,9 +1,6 @@
 import streamlit as st
-from time import sleep
-import pandas as pd
 import pickle
 import numpy as np
-import scipy
 from PIL import Image
 
 
